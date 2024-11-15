@@ -1,0 +1,39 @@
+body{
+    background: url('flying.webp') fixed no-repeat;
+    Background-size: 100vw
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em;
+}
+
+.title__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    color: cyan;
+    background-color: black;
+    border: solid;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text__paragraph{
+    width: 70%;
+    color: cyan;
+    background-color: black;
+    border: solid;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 1.5rem;
+}
